@@ -19,10 +19,11 @@ public class SecondlargestArray {
 					a[j]=temp;
 					
 				}
+				
 			}
-			
 		}
 		System.out.println("second largest array: "+a[1]);
+		
 	  	
 	}
 

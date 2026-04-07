@@ -4,34 +4,34 @@ public class PrimeNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the number");
+//
+//		Scanner sc=new Scanner(System.in);
+//		System.out.println("Enter the number");
+//		
+		int num=11;
 		
-		int num=sc.nextInt();
-		int count=0;
+		int count=1;
 		
+	
 		
-		if(num>1)
+		for(int i=1;i<num;i++)
+    {
+			if(num%i==0)
+			{
+				count++;
+			}
+	}
+		
+		if(count==2)
 		{
-			for(int i=1;i<=num;i++)
-			{
-				if(num%i==0)
-				{
-					count++;
-				}
-			}
-			
-			if(count==2)
-			{
-				System.out.println("prime number");
-			}
-			else
-			{
-				System.out.println("not the prime number");
-			}
-			
+			System.out.println("prime number "+num);
 		}
+		else
+		{
+			System.out.println("not prime number "+num);
+		}
+		
+	}
 	}
 
-}
+

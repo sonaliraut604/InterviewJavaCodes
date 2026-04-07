@@ -4,33 +4,18 @@ public class MaxAndMinValue {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int[] a={100,300,400,500,899};
-		 
-//		int max=a[0];
-//		
-//		for(int i=1;i<a.length;i++)
-//		{
-//			if(a[i]>max)
-//			{
-//				max=a[i];
-//			}
-//			
-//		}
-//		System.out.println(max);
+		int[] a={800,300,400,500,899};
 		
+		int max=a[0];
 		
-		int min=a[0];
-		
-		for(int i=1;i<a.length;i++)
+		for(int i=0;i<a.length;i++)
 		{
-			if(a[i]<min)
+			if(a[i]>max)
+		
 			{
-				min=a[i];
+				max=a[i];
 			}
 		}
-		System.out.println(min);
-			
-		
+		System.out.println(max);
 	}
-
 }

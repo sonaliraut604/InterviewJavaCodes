@@ -5,7 +5,7 @@ public class OccuranceOfEachCharacter {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String name="sonaliraut";
+		String name="mmmmjjjkkl";
 		
 		HashMap<Character,Integer> map=new HashMap<Character,Integer>();
 		
@@ -26,6 +26,14 @@ public class OccuranceOfEachCharacter {
 			}
 		}
 		System.out.println(map);
+		
+		for(Character key:map.keySet())
+		{
+			if(map.get(key)>1)
+			{
+			System.out.print(key+"-"+map.get(key));
+			}
+		}
 	}
 
 }

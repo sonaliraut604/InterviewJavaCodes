@@ -22,8 +22,10 @@ public class MissingNumberFromArray {
 		for(int i=0;i<=8;i++)
 		{
 			sum2=sum2+i;
-			System.out.println(sum2);
+			
 		}
+		
+		System.out.println(sum2);
 		
 		System.out.println(sum1-sum2);
 	}

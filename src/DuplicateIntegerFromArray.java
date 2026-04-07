@@ -4,7 +4,7 @@ public class DuplicateIntegerFromArray {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int[] a= {1,2,3,4,5,3,4,6,7,2,7};
+		int[] a= {1,2,3,8,4,5,3,4,6,7,2,7,8};
 		
 		for(int i=0;i<a.length;i++)
 		{
@@ -12,7 +12,7 @@ public class DuplicateIntegerFromArray {
 			{
               if(a[i]==a[j])
               {
-            	  System.out.println(a[i]);
+            	  System.out.print(a[i]+" ");
               }
 
 			}
